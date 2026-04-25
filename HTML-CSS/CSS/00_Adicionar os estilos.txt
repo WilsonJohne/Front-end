@@ -1,0 +1,16 @@
+Temos três maneiras de adicionar estilos em nossas paginas:
+inline, internal, external
+
+inline funciona basicamente colocando o estilo dentro da tag HTML nao sendo muito usado com frequencia.
+
+internal funciona colocando a tag <style> css aqui </style> assim podendo modificiar os elementos, por ecemplo:
+
+<head>
+    <style>
+        h1{
+            background-color: black;
+        }
+    </style>
+</head>
+
+external funciona criando um arquivo por fora do HTML e linkando ao projeto
